@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2017"
+        ],
+        "declaration": true, // Generate .d.ts files
+        "emitDeclarationOnly": true, // Only emit .d.ts files, no .js files
+        "outDir": "./dist", // Output directory for generated files
+        "strict": true, // Enable strict type-checking
+        "esModuleInterop": true, // For compatibility with CommonJS and ES modules
+        "skipLibCheck": true // Skip type checking for libraries
+    },
+    "include": [
+        "src/**/*.ts"
+    ], // Source files to include in the build
+    "exclude": [
+        "node_modules"
+    ] // Exclude dependencies
+}
